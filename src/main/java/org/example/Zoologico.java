@@ -20,19 +20,10 @@ public class Zoologico {
         Familia familia = new Familia(animal2,animal1);
 
 
-
-
-
-
         familia.tenerHijo("Cebrallo");
 
 
-
         familia.imprimirFamilia();
-
-
-
-
-
+        
     }
 }

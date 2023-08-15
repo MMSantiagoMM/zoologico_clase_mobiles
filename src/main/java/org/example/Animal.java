@@ -22,6 +22,16 @@ public class Animal {
         this.pareja=pareja;
     }
 
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "nombre='" + nombre + '\'' +
+                ", genero='" + genero + '\'' +
+                ", peso=" + peso +
+                ", pareja=" + pareja +
+                '}';
+    }
+
     public String getNombre() {
         return nombre;
     }

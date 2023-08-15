@@ -12,7 +12,8 @@ public class Familia {
         this.mama = mama;
     }
 
-
+    public Familia() {
+    }
 
     public void imprimirFamilia(){
 

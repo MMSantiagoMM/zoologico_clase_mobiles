@@ -1,9 +1,9 @@
 package org.example;
 
 public class Familia {
-    Animal papa;
-    Animal mama;
-    Animal hijo;
+    private Animal mama;
+    private Animal hijo;
+    private Animal papa;
 
 
 
